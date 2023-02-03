@@ -1,4 +1,4 @@
-# super-calculator
+# Super-Calculator
 Calculator with some functions (XPE Challenge)
 
 <h3> The functions </h3>
