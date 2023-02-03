@@ -14,12 +14,13 @@
 
 .mainTitle{
     text-align: center;
-    color: rgb(120, 230, 10);;
+    color: rgb(10, 230, 146);
 }
 
 .labelNumber{
     margin-left: 4vw;
-    color: rgb(120, 230, 10);
+    /*color: rgb(120, 230, 10); */
+     color: rgb(10, 230, 146);
     font-size: 1.1rem;
 }
 
