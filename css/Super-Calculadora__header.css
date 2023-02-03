@@ -1,0 +1,36 @@
+.header{
+    width: 60vw;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+}
+
+.header .inputNumber{
+    margin-left: 2px;
+    width: 10vw;
+}
+
+.mainTitle{
+    text-align: center;
+    color: rgb(120, 230, 10);;
+}
+
+.labelNumber{
+    margin-left: 4vw;
+    color: rgb(120, 230, 10);
+    font-size: 1.1rem;
+}
+
+#secondNumber{
+    margin-right: 10px;
+}
+
+.calculateButton{
+    background-color: chartreuse;
+    height: 26px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

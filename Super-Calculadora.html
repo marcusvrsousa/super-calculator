@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Super-Calculadora__header.css">
+    <link rel="stylesheet" href="css/Super-Calculadora__body.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <main class="main">
+        <div class="header">
+            <section class="mainTitle">
+                <h1>Super Calculadora</h1>
+            </section>
+            
+            <label class="labelNumber" for="firstNumber"> Primeiro Número (A)</label>
+            <input class="inputNumber" autofocus type="number" id="firstNumber" data-fisrtInput>
+
+            <label class="labelNumber" for="secondNumber">Segundo Número (B)</label>
+            <input class="inputNumber"  type="number" id="secondNumber" data-secondInput>
+
+            <button class="calculateButton" data-button >Calcular</button>
+        </div>
+
+        <div class="bodyContent">
+            <ul class="result">
+                <li class="result-resultList">Soma <span class="resultValue" data-sum>0</span></li>
+                <li class="result-resultList">Subtração A - B <span class="resultValue" data-subtract>0</span></li>
+                <li class="result-resultList">Subtração B - A <span class="resultValue" data-subtractInverted>0</span></li>
+                <li class="result-resultList">Multiplicação <span class="resultValue" data-multiply>0</span></li>
+                <li class="result-resultList">Divisão A/B <span class="resultValue" data-division>0</span></li>
+                <li class="result-resultList">Divisão B/A <span class="resultValue" data-divisionInverted>0</span></li>
+                <li class="result-resultList">Potência de A na base B <span class="resultValue" data-potentiation>0</span></li>
+                <li class="result-resultList">Potência de B na base A <span class="resultValue" data-potentiationInverted>0</span></li>
+                <li class="result-resultList">Raiz quadrada de A <span class="resultValue" data-squareRootA>0</span></li>
+                <li class="result-resultList">Raiz quadrada de B <span class="resultValue" data-squareRootB>0</span></li>
+                <li class="result-resultList">Fatorial de A <span class="resultValue" data-factorialA>0</span></li>
+                <li class="result-resultList">Fatorial de B <span class="resultValue" data-factorialB>0</span></li>
+                <li class="result-resultList">Porcentagem de A em relação a B <span class="resultValue" data-percentageA>0</span></li>
+                <li class="result-resultList">Porcentagem de B em relação a A <span class="resultValue" data-percentageB>0</span></li>
+                <li class="result-resultList">Média <span class="resultValue" data-average>0</span></li>
+            </ul>
+        </div>
+    </main>
+    <script type="module" src="js/calculate.js"></script>
+</body>
+</html>
