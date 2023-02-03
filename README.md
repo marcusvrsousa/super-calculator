@@ -1,7 +1,7 @@
 # Super-Calculator
 Calculator with some functions (XPE Challenge)
 
-<h3> The functions </h3>
+<h3> The functions :infinity: </h3> 	
 <ul>
   <li>Sum</li>
   <li>Subtract</li>
@@ -16,7 +16,7 @@ Calculator with some functions (XPE Challenge)
 
 <h3>Just using:</h3>
 
-*HTML, CSS e JS*
+*HTML, CSS e JS* :books:
 
 
 
