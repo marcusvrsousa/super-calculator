@@ -29,9 +29,14 @@
 }
 
 .calculateButton{
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
+    background-color: rgb(10, 230, 146);
     height: 26px;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.calculateButton:hover{
+    background-color: chartreuse;
 }
